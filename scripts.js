@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Encontrar a seção atualmente visível
         sections.forEach(section => {
-            const sectionTop = section.offsetTop - 60; // Ajuste de offset para considerar o topo da tela
+            const sectionTop = section.offsetTop - 80; // Ajuste de offset para considerar o topo da tela
             if (window.scrollY >= sectionTop) {
                 currentSection = section.getAttribute('id');
             }
